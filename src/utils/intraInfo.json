@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Epitech",
+        "planning": "https://intra.epitech.eu/planning/load?format=json",
+        "profil": "https://intra.epitech.eu/user/?format=json"
+    }
+]
