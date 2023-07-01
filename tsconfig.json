@@ -1,0 +1,32 @@
+{
+    "extends": "@tsconfig/node18-strictest-esm/tsconfig.json",
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "outDir": "./dist",
+        "module": "ESNext",
+        "strict": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "removeComments": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "sourceMap": false,
+        "baseUrl": "./"
+    },
+    "files": [
+        "src/index.ts"
+    ],
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+}
